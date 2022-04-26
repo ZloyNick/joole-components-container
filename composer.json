@@ -1,0 +1,32 @@
+{
+    "name": "zloynick/joole-components-container",
+    "type": "joole-component",
+    "license": "GPL-3.0+",
+    "version": "8.1.3",
+    "autoload": {
+        "psr-4": {
+            "joole\\components\\container": "src/"
+        }
+    },
+    "keywords": [
+        "joole",
+        "joole-framework",
+        "joole-component",
+        "component",
+        "joole-containers",
+        "containers"
+    ],
+    "authors": [
+        {
+            "name": "ZloyNick",
+            "email": "zloynick.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "8.1.*",
+        "zloynick/joole-containers": "8.1.3",
+        "zloynick/joole-framework": "dev-master",
+        "zloynick/joole-reflector": "2.1.5"
+    }
+}
